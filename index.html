@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+
+    <!--own css-->
+    <link rel="stylesheet" href="./css/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css" />
+
     <title>Clone Netflix</title>
   </head>
   <body>
     <header>
       <div class="container">
-        <h2>Netflix</h2>
+        <h2 class="logo">NETFLIX</h2>
         <nav>
           <a href="#">Inicio</a>
           <a href="#">Séries</a>
@@ -19,5 +24,72 @@
         </nav>
       </div>
     </header>
+
+    <main>
+      <div class="filme-principal">
+        <div class="container">
+          <h3 class="title">Dr. HOUSE</h3>
+          <p class="description">
+            Um médico dissidente e anti-social, que se especializou em medicina
+            de diagnóstico. Faz o que for preciso para resolver casos
+            intrigantes que estão no seu caminho, usando a sua equipe de médicos
+            e sua inteligência.
+          </p>
+        </div>
+
+        <div>
+          <button class="button">
+            <i class="fas fa-play"></i>
+            Assistir agora
+          </button>
+          <button class="button">
+            <i class="fas fa-info-circle"></i>
+            Mais informações
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <div class="carrosel-filmes">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="box-filme" src="/img/mini1.jpg" alt="mini1" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="/img/mini2.jpg" alt="mini1" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="/img/mini3.jpg" alt="mini1" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="/img/mini4.jpg" alt="mini1" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="/img/mini5.jpg" alt="mini1" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="/img/mini6.jpg" alt="mini1" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="/img/mini7.jpg" alt="mini1" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="/img/mini8.jpg" alt="mini1" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="/img/mini9.jpg" alt="mini1" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="/img/mini10.jpg" alt="mini1" />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/518c90ab05.js"></script>
+
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
